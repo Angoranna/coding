@@ -1,0 +1,46 @@
+<? xml version="1.0"?>
+<!DOCTYPE angola [
+
+<!ELEMENT pays (decouverte , atout)>
+<!ELEMENT decouverte (#PCDATA)>
+<!ELEMENT atout (#PCDATA)>
+
+<!ELEMENT region (relief, climat,vegetation)>
+<!ELEMENT relief (#PCDATA)>
+<!ELEMENT climat (#PCDATA)>
+<!ELEMENT vegetation (#PCDATA)>
+
+<!ELEMENT culture (gastronomie, danse, musique)>
+<!ELEMENT gastronomie (#PCDATA)>
+<!ELEMENT danse (#PCDATA)>
+<!ELEMENT musique (#PCDATA)>
+
+<!ELEMENT drapeau (couleur, emblème, devise)>
+<!ELEMENT couleur (#PCDATA)>
+<!ELEMENT emblème (#PCDATA)>
+<!ELEMENT devise (#PCDATA)>
+
+<!ELEMENT indépendance (jour, mois, années)>
+<!ELEMENT jour (#PCDATA)>
+<!ELEMENT mois (#PCDATA)>
+<!ELEMENT années (#PCDATA)>
+
+<!ELEMENT langue (officielle, locale)>
+<!ELEMENT officielle (#PCDATA)>
+<!ELEMENT locale (#PCDATA)>
+
+<!ELEMENT éducation (formation, diplôme)>
+<!ELEMENT formation (#PCDATA)>
+<!ELEMENT diplôme (#PCDATA)>
+
+<!ELEMENT etat (gouvernement, citoyen)>
+<!ELEMENT gouvernement (#PCDATA)>
+<!ELEMENT citoyen (#PCDATA)>
+
+<!ELEMENT habitant (personne, activité)>
+<!ELEMENT personne (#PCDATA)>
+<!ELEMENT activité (#PCDATA)>
+
+]>
+
+
